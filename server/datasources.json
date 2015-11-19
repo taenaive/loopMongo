@@ -2,5 +2,14 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "looptest": {
+    "name": "looptest",
+    "connector": "mongodb",
+    "host": "localhost",
+    "port": 27017,
+    "database": "looptest",
+    "username": "",
+    "password": ""
   }
 }
